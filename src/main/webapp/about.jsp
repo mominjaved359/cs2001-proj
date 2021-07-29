@@ -54,7 +54,7 @@
                       </li>
                       <li><a href="${contextPath}/classes">Classes</a></li>
                       <li><a href="${contextPath}/about">About FitLife</a></li>
-                      <li><a href="${contextPath}/contact"> Contact</a></li>
+                      <li><a href="${contextPath}/contact"> Register/Search</a></li>
                     </ul>
                   </div>
                 </nav>

@@ -55,7 +55,7 @@
                       </li>
                       <li><a href="${contextPath}/classes">Classes</a></li>
                       <li><a href="${contextPath}/about">About FitLife</a></li>
-                      <li><a href="${contextPath}/contact"> Contact</a></li>
+                      <li><a href="${contextPath}/contact"> Register/Search</a></li>
                     </ul>
                   </div>
                 </nav>
@@ -73,12 +73,86 @@
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center" data-aos="fade">
               <h2 class="caption mb-2">Get In Touch</h2>
-              <h1 class="">Contact Us</h1>
+              <h1 class="">Register/Search for Classes</h1>
               
             </div>
           </div>
         </div>
       </div>  
+      
+      
+      <div class="site-section site-section-sm">
+      <div class="container">
+        <div class="row">
+       
+          <div class="col-md-12 col-lg-8 mb-5">
+          
+            
+          
+            <form action="getUser" class="p-5 bg-white">
+
+              <div class="row form-group">
+                <div class="col-md-12 mb-3 mb-md-0">
+                  <label class="font-weight-bold" for="ID">Unique ID</label>
+                  <input type="text"  name = "id" id="ID" class="form-control" placeholder="Enter your unique ID">
+                </div>
+              </div>
+             
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <input type="submit" value="Search for our class" class="btn btn-primary pill text-white px-5 py-2">
+                </div>
+              </div>
+
+  
+            </form>
+          </div>
+          </div>
+          
+      
+      
+      
+
+    <div class="site-section site-section-sm">
+      <div class="container">
+        <div class="row">
+       
+          <div class="col-md-12 col-lg-8 mb-5">
+          
+            
+          
+            <form action="addUser" class="p-5 bg-white">
+
+              <div class="row form-group">
+                <div class="col-md-12 mb-3 mb-md-0">
+                  <label class="font-weight-bold" for="ID">Unique ID</label>
+                  <input type="text"  name = "id" id="ID" class="form-control" placeholder="Enter your unique ID">
+                </div>
+              </div>
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="font-weight-bold" for="Name">Name</label>
+                  <input type="text" name = "name" id="Name" class="form-control" placeholder="Enter your Name">
+                </div>
+              </div>
+              
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="font-weight-bold" for="ClassName">Class Name</label>
+                  <input type="text" name = "classname" id="ClassName" class="form-control" placeholder="Enter your class name">
+                </div>
+              </div>
+
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <input type="submit" value="Register for our class" class="btn btn-primary pill text-white px-5 py-2">
+                </div>
+              </div>
+
+  
+            </form>
+          </div>
 
       
 
