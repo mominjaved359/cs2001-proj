@@ -8,13 +8,63 @@ import javax.persistence.Id;
 public class User {
 	
 	@Id
-	public int id;
+	private int id;
 	
-	public String name;
-	public String classname;
+	private String name;
+	private String classname;
 	
 	
 	
+	
+	
+	public int getId() {
+		return id;
+	}
+
+
+
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+
+
+
+	public String getName() {
+		return name;
+	}
+
+
+
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+
+
+
+	public String getClassname() {
+		return classname;
+	}
+
+
+
+
+
+	public void setClassname(String classname) {
+		this.classname = classname;
+	}
+
+
+
+
+
 	@Override
 	public String toString() {
 		return "User [id=" + id + ", name=" + name + ", classname=" + classname + "]";
